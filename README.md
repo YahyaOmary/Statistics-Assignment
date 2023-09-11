@@ -1,4 +1,4 @@
-# Wine-Quality-Analysis
+# Stats Assessment
 This Project first focuses on implementing Hypothesis Testing and Linear Regression in the first 2 Questions. 
 Hypothesis Testing - Focuses on using t testing and confidence intervals.
 Linear Regression - Fitting a simple linear regression model then using Residual Plots ensure that all the assumptions are met. After so, to improve onto the model via transformation using a Weighted Model, which is then checked over to ensure it fufills the assumptions of the mode. After which using prediction to see the yield if the temperature is fixed at 25 Degrees Celsius.
