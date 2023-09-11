@@ -2,7 +2,7 @@ install.packages("ggplot2")
 install.packages("tidyverse")
 library(ggplot2)
 library(tidyverse)
-petrol = read.csv("C:/Users/Omary/Desktop/Wine Quality Project/Data Sheets/petrol2157047.csv")
+petrol = read.csv("C:/Users/Omary/Desktop/Wine-Quality-Analysis/Data Sheets/petrol2157047.csv")
 data.frame(petrol)
 Boxplots =boxplot(energy~method,data=petrol,main="Difference in Specific Energy between the 2 Methods",xlab ='Method',ylab ='Specific Energy')# Produced a Box plot.
 petrol.t.test <-t.test(energy~method,petrol,var.equal=TRUE) # Using t.test to test at 5% significance if the mean specific energy level differs for the 2 processes.
