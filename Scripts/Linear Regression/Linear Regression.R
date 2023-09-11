@@ -1,6 +1,6 @@
 install.packages("lmtest")
 library(lmtest)
-Cola = read.csv("C:/Users/Omary/Desktop/Wine Quality Project/Data Sheets/yield2157047.csv")
+Cola = read.csv("C:/Users/Omary/Desktop/Wine-Quality-Analysis/Data Sheets/yield2157047.csv")
 Graph1 = plot(Cola$Temp,Cola$Yield,xlab = "Temperature (Celsius)",ylab = "Yield (Thousands of Litres)",main = "Scatterplot of Yield vs. Temperature")
   model <- lm(Yield~Temp, Cola)
   abline(model,col="red") # Using a linear Regression Model
