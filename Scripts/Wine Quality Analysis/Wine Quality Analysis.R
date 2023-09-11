@@ -1,5 +1,5 @@
 setwd("C:/Users/Omary/OneDrive/Desktop/Assignments/CL2603/Assignment/Excel Data Sheets")
-Wine <- read.csv ("C:/Users/Omary/Desktop/Wine Quality Project/Data Sheets/wine2157047.csv")
+Wine <- read.csv ("C:/Users/Omary/Desktop/Wine-Quality-Analysis/Data Sheets/wine2157047.csv")
 corr <- cor(Wine)
 corr_coeffs <- corr["quality",]
 barplot(corr_coeffs,xlab="variable",ylab="Correlation Coefficient", main="Correlation Coefficients with Wine Quality")
